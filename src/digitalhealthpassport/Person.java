@@ -12,4 +12,22 @@ public class Person {
     private String city;
     private Vaccine vaccineSet;
 
+    public Person(String healthCard, String firstName, String lastName, int phoneNumber, int age, String email, String address, String city, Vaccine vaccineSet) {
+        this.healthCard = healthCard;
+        this.firstName = firstName;
+        this.lastName = lastName;
+        this.phoneNumber = phoneNumber;
+        this.age = age;
+        this.email = email;
+        this.address = address;
+        this.city = city;
+        this.vaccineSet = vaccineSet;
+    }
+
+    public Person() {
+    }
+    
+    
+    Person krista = new Person();
+    
 }
