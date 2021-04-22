@@ -7,7 +7,7 @@ public class Practitioner {
     private String lastName;
     private String address;
     private int physNum;
-    private CovidVaccine vaccinationDetails;
+    private Vaccine vaccinationDetails;
     private CovidTest covidTestDetail;
 
 }
