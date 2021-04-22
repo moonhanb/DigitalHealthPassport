@@ -6,7 +6,7 @@ public class Practitioner {
     private String firstName;
     private String lastName;
     private String address;
-    private String phoneNumber;
+    private int physNum;
     private CovidVaccine vaccinationDetails;
     private CovidTest covidTestDetail;
 
